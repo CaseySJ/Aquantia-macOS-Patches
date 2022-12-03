@@ -19,7 +19,7 @@ The patches are also available directly from within `OCAT` (OpenCore Auxiliary T
 
 ![Screen Shot 2022-12-03 at 8 44 53 AM](https://user-images.githubusercontent.com/48335376/205451855-e9be71c5-bd65-490c-880c-ba8d5e82436b.png)
 
-Then select either (a) Aquantia Compact Patches (Set 2) or (b) Aquantia Patches (Set 1):
+Then select either (a) `Aquantia Compact Patches` (Set 2) or (b) `Aquantia Patches` (Set 1):
 
 ![Screen Shot 2022-12-03 at 8 54 08 AM](https://user-images.githubusercontent.com/48335376/205452518-755fbafe-71ef-4303-9ef3-d549f5fe29c6.png)
 
