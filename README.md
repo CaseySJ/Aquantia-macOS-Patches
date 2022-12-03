@@ -11,7 +11,7 @@ An easy way to import the patches into *config.plist* is by using `OpenCore Conf
 
 ![Screen Shot 2022-12-03 at 8 40 18 AM](https://user-images.githubusercontent.com/48335376/205451692-7b40fd63-aa6a-4126-b7e7-b0dface3c79b.png)
 
-The result will look something like this:
+Then select the `.plist` file downloaded from this repository. The result will look something like this:
 
 ![Screen Shot 2022-12-03 at 8 40 27 AM](https://user-images.githubusercontent.com/48335376/205452479-392ecae3-dba6-45da-b434-aae14e18cbd2.png)
 
