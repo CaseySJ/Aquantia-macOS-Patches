@@ -5,7 +5,7 @@ There are 8 patches in the `.plist`. The first six belong to **Set 1**. The last
 
 These patches have been tested with **AQC-107** and **AQC-113** running under Monterey and Ventura. 
 
-These patches should not be used in Big Sur or Monterey 12.1 and 12.2. The patches apply only to Monterey 12.3 and later (which includes all versions of Ventura).
+These patches should not be used in Big Sur or Monterey 12.0, 12.1 and 12.2. The patches apply only to Monterey 12.3 and later (which includes all versions of Ventura).
 
 An easy way to import the patches into *config.plist* is by using `OpenCore Configurator`. Navigate to the **Kernel --> Patch** section and right-click to select `Import set of patches` from the pop-up menu:
 
