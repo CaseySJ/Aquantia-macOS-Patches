@@ -27,3 +27,4 @@ The result will look something like this:
 
 ![Screen Shot 2022-12-03 at 8 54 41 AM](https://user-images.githubusercontent.com/48335376/205452409-d67c27fa-d51c-4cb7-a65d-fb1794bb79b3.png)
 
+While it's perfectly okay to add both sets of patches to `config.plist`, **only one set** should be enabled at a time. Do **not** enable both Sets 1 and 2 at the same time. 
