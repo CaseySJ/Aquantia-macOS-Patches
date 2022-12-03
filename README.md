@@ -1,5 +1,5 @@
 # Aquantia-macOS-Patches
-These patches allow `AppleEthernetAquantiaAqtion` to work properly in Monterey and Ventura when AppleVTD is not available. They were created for AMD platforms, but work equally well on Intel platforms when AppleVTD is not enabled.
+These patches allow `AppleEthernetAquantiaAqtion` to work properly in Monterey and Ventura when AppleVTD is not available[^1]. They were created for AMD platforms, but work equally well on Intel platforms when AppleVTD is not enabled.
 
 There are 8 patches in the `.plist`. The first six belong to **Set 1**. The last two belong to **Set 2**. Either Set 1 or Set 2 patches may be used depending on your preference. Do not enable both Set 1 and Set 2 patches at the same time. All patches from a set must be enabled in order to operate the Aquantia 10GbE card properly.
 
@@ -28,3 +28,5 @@ The result will look something like this:
 ![Screen Shot 2022-12-03 at 8 54 41 AM](https://user-images.githubusercontent.com/48335376/205452409-d67c27fa-d51c-4cb7-a65d-fb1794bb79b3.png)
 
 While it's perfectly okay to add both sets of patches to `config.plist`, **only one set** should be enabled at a time. Do **not** enable both Set 1 and Set 2 at the same time. 
+
+[^1]: The OpenCore Kernel quirk `ForceAquantiaEthernet` must still be enabled.
