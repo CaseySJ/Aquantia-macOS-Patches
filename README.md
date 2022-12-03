@@ -29,4 +29,4 @@ The result will look something like this:
 
 While it's perfectly okay to add both sets of patches to `config.plist`, **only one set** should be enabled at a time. Do **not** enable both Set 1 and Set 2 at the same time. 
 
-[^1]: The OpenCore Kernel quirk `ForceAquantiaEthernet` must still be enabled.
+[^1]: The OpenCore Kernel quirk `ForceAquantiaEthernet` must still be enabled. This setting is included at the bottom of the patch file in this repository.
