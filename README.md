@@ -9,20 +9,21 @@ These patches should not be used in Big Sur or Monterey 12.1 and 12.2. The patch
 
 An easy way to import the patches into *config.plist* is by using `OpenCore Configurator`. Navigate to the **Kernel --> Patch** section and right-click to select `Import set of patches` from the pop-up menu:
 
-
 ![Screen Shot 2022-12-03 at 8 40 18 AM](https://user-images.githubusercontent.com/48335376/205451692-7b40fd63-aa6a-4126-b7e7-b0dface3c79b.png)
 
 The result will look something like this:
 
+![Screen Shot 2022-12-03 at 8 40 27 AM](https://user-images.githubusercontent.com/48335376/205452479-392ecae3-dba6-45da-b434-aae14e18cbd2.png)
 
-![Screen Shot 2022-12-03 at 8 40 27 AM](https://user-images.githubusercontent.com/48335376/205451761-99b75cca-2608-40a5-ab45-2a48735174b1.png)
-
-The patches are also available directly from within `OCAT` (OpenCore Auxiliary Tools). Navigate to the **Kernel --> Patch** section and right-click to select `Preset` from the popo-up menu:
+The patches are also available directly from within `OCAT` (OpenCore Auxiliary Tools). Navigate to the **Kernel --> Patch** section and right-click to select `Preset` from the pop-up menu:
 
 ![Screen Shot 2022-12-03 at 8 44 53 AM](https://user-images.githubusercontent.com/48335376/205451855-e9be71c5-bd65-490c-880c-ba8d5e82436b.png)
 
+Then select either (a) Aquantia Compact Patches (Set 2) or (b) Aquantia Patches (Set 1):
+
+![Screen Shot 2022-12-03 at 8 54 08 AM](https://user-images.githubusercontent.com/48335376/205452518-755fbafe-71ef-4303-9ef3-d549f5fe29c6.png)
+
 The result will look something like this:
 
-
-![Screen Shot 2022-12-03 at 8 50 56 AM](https://user-images.githubusercontent.com/48335376/205452121-45ea9178-1ce9-4012-8b17-a3eabfda20df.png)
+![Screen Shot 2022-12-03 at 8 54 41 AM](https://user-images.githubusercontent.com/48335376/205452409-d67c27fa-d51c-4cb7-a65d-fb1794bb79b3.png)
 
