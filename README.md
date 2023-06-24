@@ -15,6 +15,8 @@ Then select the `.plist` file downloaded from this repository. The result will l
 
 <img width="1888" alt="Screenshot 2023-06-24 at 12 38 42 PM" src="https://github.com/CaseySJ/Aquantia-macOS-Patches/assets/48335376/cd73a43d-c447-4dad-bc36-18455b1436e8">
 
+--- Sonoma Patches have not yet been added to OCAT ---
+
 The patches are also available directly from within `OCAT` (OpenCore Auxiliary Tools). Navigate to the **Kernel --> Patch** section and right-click to select `Preset` from the pop-up menu:
 
 ![Screen Shot 2022-12-03 at 8 44 53 AM](https://user-images.githubusercontent.com/48335376/205451855-e9be71c5-bd65-490c-880c-ba8d5e82436b.png)
