@@ -13,7 +13,7 @@ An easy way to import the patches into *config.plist* is by using `OpenCore Conf
 
 Then select the `.plist` file downloaded from this repository. The result will look something like this:
 
-![Screen Shot 2022-12-03 at 8 40 27 AM](https://user-images.githubusercontent.com/48335376/205452479-392ecae3-dba6-45da-b434-aae14e18cbd2.png)
+<img width="1888" alt="Screenshot 2023-06-24 at 12 38 42 PM" src="https://github.com/CaseySJ/Aquantia-macOS-Patches/assets/48335376/cd73a43d-c447-4dad-bc36-18455b1436e8">
 
 The patches are also available directly from within `OCAT` (OpenCore Auxiliary Tools). Navigate to the **Kernel --> Patch** section and right-click to select `Preset` from the pop-up menu:
 
