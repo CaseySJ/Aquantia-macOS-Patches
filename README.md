@@ -7,7 +7,7 @@ OpenCore's kernel quirk `ForceAquantiaEthernet` needs to be **enabled**.
 
 These patches have been tested with **AQC-107** and **AQC-113** running under Monterey, Ventura, and Sonoma (beta 1 only). 
 
-These patches should not be used in Big Sur or Monterey 12.0, 12.1 and 12.2. The patches apply only to Monterey 12.3 and later (including Ventura and Sonoma).
+These patches should not be used in Big Sur or Monterey 12.0, 12.1 and 12.2. The patches apply only to Monterey 12.3 and later.
 
 An easy way to import the patches into *config.plist* is by using `OpenCore Configurator`. Navigate to the **Kernel --> Patch** section and right-click to select `Import set of patches` from the pop-up menu:
 
