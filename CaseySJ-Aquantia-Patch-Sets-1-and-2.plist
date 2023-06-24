@@ -12,33 +12,27 @@
 				<key>Base</key>
 				<string>__ZN27AppleEthernetAquantiaAqtion13alloc_rx_ringEj</string>
 				<key>Comment</key>
-				<string>CaseySJ - Fix alloc_rx_ring #1</string>
+				<string>CaseySJ - Fix alloc_dma_buffer</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>
-				TInvQbgDAAAA
-				</data>
+				<data>TInvQbgDAAAA</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>22.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				TInvQbgTAAAA
-				</data>
+				<data>TInvQbgTAAAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -48,33 +42,57 @@
 				<key>Base</key>
 				<string>__ZN27AppleEthernetAquantiaAqtion13alloc_rx_ringEj</string>
 				<key>Comment</key>
-				<string>CaseySJ - Fix alloc_rx_ring #2</string>
+				<string>CaseySJ - Fix alloc_dma_buffer (Sonoma)</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>
-				ugAQAAC/AQAAAA==
-				</data>
+				<data>SInfQbgDAAAA</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
-				<string>22.99.99</string>
+				<string>23.99.99</string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>Replace</key>
+				<data>SInfQbgTAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>__ZN27AppleEthernetAquantiaAqtion13alloc_rx_ringEj</string>
+				<key>Comment</key>
+				<string>CaseySJ - Fix IOBufferMemoryDescriptor::withOptions</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>ugAQAAC/AQAAAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugAQAAC/EQAAAA==
-				</data>
+				<data>ugAQAAC/EQAAAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -84,33 +102,27 @@
 				<key>Base</key>
 				<string>__ZN27AppleEthernetAquantiaAqtion13alloc_tx_ringEj</string>
 				<key>Comment</key>
-				<string>CaseySJ - Fix alloc_tx_ring #1</string>
+				<string>CaseySJ - Fix alloc_dma_buffer</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>
-				TInnQbgDAAAA
-				</data>
+				<data>TInnQbgDAAAA</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>22.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				TInnQbgTAAAA
-				</data>
+				<data>TInnQbgTAAAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -120,33 +132,57 @@
 				<key>Base</key>
 				<string>__ZN27AppleEthernetAquantiaAqtion13alloc_tx_ringEj</string>
 				<key>Comment</key>
-				<string>CaseySJ - Fix alloc_tx_ring #2</string>
+				<string>CaseySJ - Fix alloc_dma_buffer (Sonoma)</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>
-				ugAQAAC/AgAAAA==
-				</data>
+				<data>SInfQbgDAAAA</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
-				<string>22.99.99</string>
+				<string>23.99.99</string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>Replace</key>
+				<data>SInfQbgTAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>__ZN27AppleEthernetAquantiaAqtion13alloc_tx_ringEj</string>
+				<key>Comment</key>
+				<string>CaseySJ - Fix IOBufferMemoryDescriptor::withOptions</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>ugAQAAC/AgAAAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugAQAAC/EgAAAA==
-				</data>
+				<data>ugAQAAC/EgAAAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -160,29 +196,53 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>
-				TIn3QbgDAAAA
-				</data>
+				<data>TIn3QbgDAAAA</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>22.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				TIn3QbgTAAAA
-				</data>
+				<data>TIn3QbgTAAAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>__ZN27AppleEthernetAquantiaAqtion14allocAvbPacketEj</string>
+				<key>Comment</key>
+				<string>CaseySJ - Fix allocAvbPacket (Sonoma)</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SInfQbgDAAAA</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>23.99.99</string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>Replace</key>
+				<data>SInfQbgTAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -196,29 +256,23 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>
-				ugACAAC/AwAAAA==
-				</data>
+				<data>ugACAAC/AwAAAA==</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
-				<string>22.99.99</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugACAAC/EwAAAA==
-				</data>
+				<data>ugACAAC/EwAAAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -228,25 +282,25 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>CaseySJ - Fix alloc_dma_buffer</string>
+				<string>CaseySJ - Fix alloc_dma_buffer (including Sonoma)</string>
 				<key>Count</key>
 				<integer>3</integer>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>TInnQbgDAAAA</data>
+				<data>SInHQbgDAAAA</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>///n////////</data>
+				<data>+P/H////////</data>
 				<key>MaxKernel</key>
-				<string>22.99.99</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>TIn3QbgTAAAA</data>
+				<data>SInHQbgTAAAA</data>
 				<key>ReplaceMask</key>
 				<data>AAAAAAAQAAAA</data>
 				<key>Skip</key>
@@ -272,7 +326,7 @@
 				<key>Mask</key>
 				<data>//8A////8P///w==</data>
 				<key>MaxKernel</key>
-				<string>22.99.99</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
