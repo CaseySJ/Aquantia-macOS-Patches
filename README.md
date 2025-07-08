@@ -1,12 +1,12 @@
 # Aquantia-macOS-Patches
-These patches allow `AppleEthernetAquantiaAqtion` to work properly in Monterey, Ventura, Sonoma, and Sequoia when AppleVTD is not available. They were created for AMD platforms, but work equally well on Intel platforms when AppleVTD is not enabled.
+These patches allow `AppleEthernetAquantiaAqtion` to work properly in Monterey, Ventura, Sonoma, Sequoia, and Tahoe when AppleVTD is not available. They were created for AMD platforms, but work equally well on Intel platforms when AppleVTD is not enabled.
 
 There are 11 patches in the `.plist`. The first nine belong to **Set 1**. The last two belong to **Set 2**. Either Set 1 or Set 2 patches may be used depending on your preference. Do not enable both Set 1 and Set 2 patches at the same time. All patches from a set must be enabled in order to operate the Aquantia 10GbE card properly.
 
 Notes:
 1. Set 2 patches make use of OpenCore's `Mask` and `ReplaceMask` features[^1].
 2. OpenCore's kernel quirk `ForceAquantiaEthernet` needs to be **enabled**.
-3. These patches have been tested with **AQC-107** and **AQC-113** running under Monterey, Ventura, Sonoma and Sequoia.
+3. These patches have been tested with **AQC-107** and **AQC-113** running under Monterey, Ventura, Sonoma, Sequoia, and Tahoe.
 4. These patches should not be used in Big Sur or Monterey 12.0, 12.1 and 12.2. The patches apply only to Monterey 12.3 and later.
 
 An easy way to import the patches into *config.plist* is by using `OpenCore Configurator`. Navigate to the **Kernel --> Patch** section and right-click to select `Import set of patches` from the pop-up menu:
@@ -18,7 +18,7 @@ Then select the `.plist` file downloaded from this repository. The result will l
 <img width="1888" alt="Screenshot 2023-06-24 at 12 38 42 PM" src="https://github.com/CaseySJ/Aquantia-macOS-Patches/assets/48335376/cd73a43d-c447-4dad-bc36-18455b1436e8">
 
 ---
-**Sonoma/Sequoia Patches have not yet been added to OCAT**
+**Sonoma/Sequoia/Tahoe Patches have not yet been added to OCAT**
 
 The patches are also available directly from within `OCAT` (OpenCore Auxiliary Tools). Navigate to the **Kernel --> Patch** section and right-click to select `Preset` from the pop-up menu:
 
