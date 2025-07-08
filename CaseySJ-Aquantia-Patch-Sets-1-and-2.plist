@@ -56,7 +56,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>Replace</key>
@@ -86,7 +86,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -146,7 +146,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>Replace</key>
@@ -176,7 +176,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -236,7 +236,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>Replace</key>
@@ -266,7 +266,7 @@
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -296,7 +296,7 @@
 				<key>Mask</key>
 				<data>+P/H////////</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
@@ -326,7 +326,7 @@
 				<key>Mask</key>
 				<data>//8A////8P///w==</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
